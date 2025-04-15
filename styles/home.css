@@ -1,32 +1,36 @@
 body{
-    background-color: beige;
+    background-color: black;
+    margin: 0px;
+
 }
 .navbar{
-    position:sticky;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: aquamarine;
-    padding: 15px;
+    background-color: gray;
+    padding: 10px;
+    margin: 0px;
 }
 .logo{
     display: flex;
-    align-items: end;
+    padding-left: 40px;
 }
 .nav-links{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    padding-right: 40px;
 }
 .circle{
-    width: 120px;
-    height: 120px;
+    width: 65px;
+    height: 65px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(196,143,143);
 }
 .cicle img{
     width: 60px;
@@ -34,5 +38,5 @@ body{
     object-fit: contain;
 }
 .circle:hover{
-    background-color: red;
+    background-color: white;
 }
