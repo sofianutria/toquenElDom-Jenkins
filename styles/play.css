@@ -1,0 +1,69 @@
+main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.marimba-keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 60vh;
+    width: 80vw;
+    padding: 20px;
+    background-color:black;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.circle {
+    position: absolute;
+    top: 8px;
+    border-radius: 50%;
+    background-color: #C48F8F;
+    width: 20px;
+    height: 20px;
+}
+#C1 { height: 100px; }
+#C-1 { height: 108px; }
+#D1 { height: 116px; }
+#D-1 { height: 124px; }
+#E1 { height: 132px; }
+#F1 { height: 140px; }
+#F-1 { height: 148px; }
+#G1 { height: 156px; }
+#G-1 { height: 164px; }
+#A1 { height: 172px; }
+#A-1 { height: 180px; }
+#B1 { height: 188px; }
+
+#C2 { height: 196px; }
+#C-2 { height: 204px; }
+#D2 { height: 212px; }
+#D-2 { height: 220px; }
+#E2 { height: 228px; }
+#F2 { height: 236px; }
+#F-2 { height: 244px; }
+#G2 { height: 252px; }
+#G-2 { height: 260px; }
+#A2 { height: 268px; }
+#A-2 { height: 276px; }
+#B2 { height: 284px; }
+
+#C3 { height: 292px; }
+#C-3 { height: 300px; }
+#D3 { height: 308px; }
+#D-3 { height: 316px; }
+#E3 { height: 324px; }
+#F3 { height: 332px; }
+#F-3 { height: 340px; }
