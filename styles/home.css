@@ -10,20 +10,25 @@ body{
     align-items: center;
     flex-direction: row;
     background-color: gray;
-    padding: 10px;
+    padding: 5px;
     margin: 0px;
 }
-.logo{
+.img-logo{
     display: flex;
     padding-left: 40px;
+    width: 100px;
+    height: 100px;
 }
 .nav-links{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 15px;
     padding-right: 40px;
 }
-.circle{
+.img-nav {
+    width: 50px;
+}
+.circle-icon{
     width: 65px;
     height: 65px;
     border-radius: 100px;
@@ -32,11 +37,6 @@ body{
     align-items: center;
     background-color: rgb(196,143,143);
 }
-.cicle img{
-    width: 60px;
-    height: auto;
-    object-fit: contain;
-}
-.circle:hover{
+.circle-icon:hover{
     background-color: white;
 }

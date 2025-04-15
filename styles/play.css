@@ -1,3 +1,42 @@
+
+.navbar{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: gray;
+    padding: 5px;
+    margin: 0px;
+}
+.img-logo{
+    display: flex;
+    padding-left: 40px;
+    width: 100px;
+    height: 100px;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-right: 40px;
+}
+.img-nav {
+    width: 50px;
+}
+.circle-icon{
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196,143,143);
+}
+.circle-icon:hover{
+    background-color: white;
+}
+
 main {
     display: flex;
     flex-direction:column;
