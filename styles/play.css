@@ -73,7 +73,7 @@ main {
     width: 20px;
     height: 20px;
 }
-#C1 { height: 100px; }
+#C1 { height: 100px; background-color: blueviolet;}
 #C-1 { height: 108px; }
 #D1 { height: 116px; }
 #D-1 { height: 124px; }
