@@ -1,12 +1,10 @@
-let C1 = document.getElementById("C1");
-const soundC1 = new Audio("../assets/sounds/C1.wav");
-function playNote() {
-  soundC1.currentTime = 0;
-  soundC1.play();
-}
-C1.addEventListener("click", playNote);
-document.addEventListener("keydown", function (event) {
-  if (event.key === "a" || event.key === "A") {
-    playNote();
-  }
+const keys = document.querySelectorAll('.key')
+console.log(keys);
+keys.forEach(key => {
+  key.addEventListener("click", () => {
+    const noteId = key.id;
+    const sound = new Audio(`../assets/sounds/${noteId}.wav`); 
+    sound.currentTime = 0;
+    sound.play();
+  });
 });
