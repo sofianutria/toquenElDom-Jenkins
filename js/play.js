@@ -3,11 +3,11 @@ const keyLetter = { q: 'C1', w: 'C-1', e: 'D1', r: 'D-1', t: 'E1', y: 'F1', u: '
 keys.forEach(key => {
   key.addEventListener("click", () => {
     const noteId = key.id;
-    soundPlay(key.id);
+    soundPlay(noteId);
   });
 });
 document.addEventListener("keydown", (event) => {
-  const noteId = keyLetter[event.key];
+  const noteId = keyLetter[event.key.toLowerCase()];
   if (noteId) {
     soundPlay(noteId);
   }
@@ -16,4 +16,12 @@ function soundPlay(noteId) {
   const sound = new Audio(`../assets/sounds/${noteId}.wav`);
   sound.currentTime = 0;
   sound.play();
-}
+
+  const keyElement = document.getElementById(noteId);
+  if (keyElement) {
+  keyElement.classList.add('active');
+
+  setTimeout(() => {
+    keyElement.classList.remove('active');
+  }, 200); 
+}}
