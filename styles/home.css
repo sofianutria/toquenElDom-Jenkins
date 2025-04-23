@@ -1,7 +1,10 @@
 body{
-    background-color: black;
-    margin: 0px;
-
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #ffffff; 
 }
 .navbar{
     position: sticky;
@@ -40,12 +43,7 @@ body{
 .circle-icon:hover{
     background-color: white;
 }
-main {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 section {
     display: flex;
     flex-direction: column;
@@ -65,4 +63,8 @@ main  {
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
