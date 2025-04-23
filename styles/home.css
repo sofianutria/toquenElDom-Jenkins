@@ -40,3 +40,29 @@ body{
 .circle-icon:hover{
     background-color: white;
 }
+main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main  {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333333; 
+    border-radius: 8px;
+}
+.title-container {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
