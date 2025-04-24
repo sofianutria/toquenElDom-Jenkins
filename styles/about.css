@@ -1,25 +1,26 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: #000000; 
-    color: #ffffff; 
+    background-color: #2E0037; 
+    color: #ffffff;
 }
 .title-container {
-    background-color: #333333;
+    background-color: #2E0037;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
+    border-radius: 8px;
 }
-
 .navbar{
     position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: gray;
+    background-color: #9C4E97;
     padding: 5px;
     margin: 0px;
 }
@@ -45,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(196,143,143);
+    background-color: #f4a3c1;
 }
 .circle-icon:hover{
     background-color: white;
@@ -53,23 +54,26 @@ body {
 h1 {
     margin: 0;
     font-size: 2.5em;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 main {
     max-width: 800px;
     margin: 30px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #f8cddd;
     color: #333333; 
     border-radius: 8px;
 }
 main h2 {
-    color: #333333;
+    color: black;
     text-align: center;
     margin-bottom: 25px;
 }
 section h3 {
-    color: #333333;
-    border-bottom: 2px solid #e0e0e0;
+    color: black;
+    border-bottom: 2px solid #f8cddd;
     padding-bottom: 5px;
     margin-top: 30px;
     margin-bottom: 15px;
@@ -82,10 +86,9 @@ footer {
     margin-top: 40px;
     padding: 20px;
     font-size: 0.9em;
-    color: #cccccc;
-    border-top: 1px solid #333333; 
+    color: #f8cddd;
+    border-top: 1px solid #f8cddd; 
 }
-
 @media (max-width: 600px) {
     h1 {
         font-size: 1.8em;

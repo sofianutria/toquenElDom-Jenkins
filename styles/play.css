@@ -1,6 +1,11 @@
 body {
-    background-color: black;
+    background-color: #2E0037; 
     margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.3;
+    font-size: 90%;
 }
 .navbar{
     position: sticky;
@@ -8,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background-color: gray;
+    background-color: #9C4E97;
     padding: 5px;
     margin: 0px;
 }
@@ -34,10 +39,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(196,143,143);
+    background-color: #f4a3c1;
 }
 .circle-icon:hover{
     background-color: white;
+}
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.how-to-play{
+    max-width: 45%;
+    margin: 20px auto;
+    padding: 1%;
+    background-color: #f8cddd;
+    color: #333333; 
+    border-radius: 8px;
+    color: black;
 }
 main {
     display: flex;
@@ -54,7 +75,7 @@ main {
     height: 60vh;
     width: 80vw;
     padding: 20px;
-    background-color:black;
+    background-color: #2E0037; ;
 }
 .key {
     display: flex;
@@ -75,7 +96,7 @@ main {
     position: absolute;
     top: 8px;
     border-radius: 50%;
-    background-color: #C48F8F;
+    background-color: #f4a3c1;
     width: 20px;
     height: 20px;
     display: flex;
@@ -113,3 +134,11 @@ main {
 #E3 { height: 324px; }
 #F3 { height: 332px; }
 #F-3 { height: 340px; }
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #f8cddd;
+    border-top: 1px solid #f8cddd; 
+}
