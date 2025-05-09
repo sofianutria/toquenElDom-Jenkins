@@ -9,7 +9,7 @@ stages {
     }
     stage('Execute Command2') {
         steps {
-            sh 'docker run -p 8081:80 --name toquen-el-dom '
+            sh 'docker run -p 8081:80 --name toquen-el-dom toquen-el-dom'
         }
     }
   }
