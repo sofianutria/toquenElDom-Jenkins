@@ -2,15 +2,14 @@ pipeline {
 agent any
 
 stages {
-    stage('Execute Command1') {
+    stage('Build') {
         steps {
-            sh 'hostname'
-            sh 'whoami'
+            sh 'docker build --no-cache -t toquen-el-dom -f Dockerfile .'
         }
     }
     stage('Execute Command2') {
         steps {
-            sh 'ls -ltra'
+            sh 'docker run -p 8081:80 --name toquen-el-dom '
         }
     }
   }
